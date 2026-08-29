@@ -58,6 +58,11 @@ public class Book extends Media  {
     }
 
      public void restock(int quantity) {
+        //valdtion
+         if (quantity < 0) {
+             System.out.println("quantity cannot be negative");
+             return;
+         }
         this.stock += quantity;
         System.out.println(quantity + "copies of: " + getTitle() + " add new stock: " + stock);
     }

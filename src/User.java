@@ -59,7 +59,7 @@ public class User {
         } else {
             System.out.println(media.getTitle() + " dose not found in cart ");
         }
-    }
+    } 
 
     public void checkOut() {
         if (shoppingCart.isEmpty()) {

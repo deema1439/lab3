@@ -59,6 +59,6 @@ public class Media {
 
     @Override
     public String toString() {
-        return "the title: "+title+" the Auture: "+auteur+" the ISBN: "+price+" the media "+getMediaType();
+        return "the title: "+title+" the Auture: "+auteur+" the ISBN: "+getISBN()+" the media "+getMediaType();
     }
 }
